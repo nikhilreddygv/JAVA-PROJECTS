@@ -1,2 +1,3 @@
 testing github desktop fetch
 adding another line to check fetch via the command line
+adding yet another line to check git pull instead of git merge
