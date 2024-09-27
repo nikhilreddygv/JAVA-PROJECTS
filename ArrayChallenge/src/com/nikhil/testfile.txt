@@ -1,1 +1,2 @@
 testing github desktop fetch
+adding another line to check fetch via the command line
