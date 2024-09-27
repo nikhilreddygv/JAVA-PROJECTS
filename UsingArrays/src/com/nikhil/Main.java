@@ -15,6 +15,16 @@ public class Main {
         System.out.println(Arrays.toString(thirdArray));
         int[] fourthArray =Arrays.copyOf(thirdArray,12);
         System.out.println(Arrays.toString(fourthArray));
+        System.out.println("=".repeat(100));
+
+        char[] searchArray = {'e','f','d','g','a','i','b','h','c','j'};
+        Arrays.sort(searchArray);
+        System.out.println(Arrays.binarySearch(searchArray,'m'));
+
+        System.out.println(Arrays.toString(searchArray));
+
+        char[] compareArray = {'a','b','c','d','e','f','g','h','i','j'};
+        System.out.println(Arrays.equals(searchArray,compareArray));
 
 
     }
